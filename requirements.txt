@@ -1,0 +1,9 @@
+transformers==4.48.1
+tokenizers>=0.21,<0.22
+huggingface_hub>=0.26,<1.0
+peft
+librosa
+torch
+accelerate
+gTTS
+ipykernel
