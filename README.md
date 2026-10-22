@@ -47,4 +47,4 @@ Adding exceptions would essentially create a bootstrapped, “reward-hacked” s
 
 ## Setup
 
-Upload this folder to Google Drive, open `evaluate.ipynb` in Colab, and pick a GPU runtime (L4 or A100; a T4 cannot hold the 8B model). Add a Hugging Face token with Llama 3.1 access as the Colab secret `HF_TOKEN`, run the install cell, restart the session, then run the notebook from the top. Live mode uses the browser microphone.
+Open `evaluate.ipynb` in Colab with a GPU runtime (T4 is enough for the 3B model). Add an OpenAI API key as the Colab secret `OPENAI_API_KEY` (notebook access on), then run the notebook from the top. The notebook replays `data/nandos_jbr_captain_replies.csv` as text, and `Qwen/Qwen2.5-3B-Instruct` replies; change `MODEL_ID` to try another model.
