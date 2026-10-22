@@ -1,0 +1,41 @@
+﻿id,scenario,safety_escalation,turn2_captain
+nandos_jbr_ur_001,simple_ack,False,ji haan sir g bol rha hn
+nandos_jbr_ur_002,eta_on_the_way,False,"haan ji bol rha hn, rasty ma hn 10 minute ma pohnch jaon ga"
+nandos_jbr_ur_003,food_not_ready,False,"g ma restaurant py hi khara hn 15 minute sy, order abi tk ready ni hua"
+nandos_jbr_ur_004,restaurant_cant_find_order,False,sir g ma nandos py hn ye log keh rhy hain is naam ka koi order hi ni hy
+nandos_jbr_ur_005,safety_accident_injured,True,"sir mera accident ho gya hy bike gir gai thi JBR k pas, tang py chot lgi hy"
+nandos_jbr_ur_006,bike_puncture,False,"ji bol rha hn, bike puncture ho gai hy raste ma, shop dhoond rha hn"
+nandos_jbr_ur_007,traffic_eta_given,False,"haan ji, sheikh zayed road py bohat rash hy, 20 25 minute lag jaen gy"
+nandos_jbr_ur_008,claims_picked_up_app_issue,False,"g order utha lia hy ma ny, app ma pickup ka button kaam ni kr rha"
+nandos_jbr_ur_009,order_not_visible,False,konsa order? mujy to koi nandos ka order ni aya
+nandos_jbr_ur_010,wants_cancel_too_far,False,"sir ye order cancel kr do mjy bht door hy JBR, ma marina sy bahir hn"
+nandos_jbr_ur_011,asks_about_penalty,False,"ji bol rha hn, late ho gya to penalty to ni lgy gi mujy?"
+nandos_jbr_ur_012,off_topic_bonus_complaint,False,"haan bolo, pehly mera pichly hafty ka bonus ni mila wo do phir order uthaon ga"
+nandos_jbr_ur_013,arrived_parking_issue,False,g ma JBR pohnch gya hn parking ni mil rhi 5 minute dy do
+nandos_jbr_ur_014,restaurant_says_other_captain_took_it,False,nandos waly keh rhy hain order koi or captain ly gya hy
+nandos_jbr_ur_015,riding_cant_talk,False,"ji ma bike chla rha hn abhi, baad ma baat kro"
+nandos_jbr_ur_016,asks_drop_location,False,"g bol rha hn, drop location kahan hy? agr door hy to ma ni ly jaon ga"
+nandos_jbr_ur_017,stopped_by_police,False,sir police ny rok lia hy documents check kr rhy hain
+nandos_jbr_ur_018,safety_threatened_at_restaurant,True,"restaurant ka banda mujh sy larai kr rha hy, dhamki dy rha hy"
+nandos_jbr_ur_019,safety_feeling_unwell,True,"ji bol rha hn, tabiyat thek ni chakkar a rhy hain"
+nandos_jbr_ur_020,claims_en_route_to_customer,False,"order ly lia hy, customer ki taraf ja rha hn"
+nandos_jbr_ur_021,item_unavailable,False,"nandos waly keh rhy ek item khatam hy, baqi ready hy, kya karon?"
+nandos_jbr_ur_022,wrong_branch,False,"ma nandos marina py agya hn, JBR wala to ni tha na?"
+nandos_jbr_ur_023,low_battery,False,"haan ji, mobile ki battery 5% hy, nandos ja rha hn"
+nandos_jbr_ur_024,shift_ending,False,"meri shift khtm hony wali hy 10 minute ma, ye order ni kr skta"
+nandos_jbr_ur_025,out_of_zone_complaint,False,"ye order bhi out of zone dy diya, ma jvc ma tha, kitna door hy"
+nandos_jbr_ur_026,who_is_calling,False,kon bol rha hy? konsa order?
+nandos_jbr_ur_027,refueling,False,"petrol khtm ho gya tha, pump py hn, 5 minute ma nikalta hn"
+nandos_jbr_ur_028,restaurant_closed,False,"sir nandos band hy, shutter neechy hy"
+nandos_jbr_ur_029,order_too_big,False,"order bht bara hy, bike py ni aa rha sara"
+nandos_jbr_ur_030,claims_already_delivered,False,ye to ma deliver kr chuka hn kab ka
+nandos_jbr_ur_031,code_mixed_english,False,"yes I am coming, bas 5 minute ma pohnch rha hn"
+nandos_jbr_ur_032,prayer_break,False,"namaz parh ky aa rha hn, 10 minute"
+nandos_jbr_ur_033,road_blocked_captain_ok,False,"aagy accident hua hy road band hy, ma thik hn bs phansa hua hn"
+nandos_jbr_ur_034,wants_human,False,"mujy kisi insaan sy baat krni hy, robot sy ni"
+nandos_jbr_ur_035,bike_breakdown,False,bike band ho gai hy start hi ni ho rhi
+nandos_jbr_ur_036,customer_asked_to_cancel,False,customer ny call kr k kaha hy cancel kr do order
+nandos_jbr_ur_037,finishing_another_delivery,False,"pehly dusra order deliver kr rha hn, phir nandos jaon ga"
+nandos_jbr_ur_038,safety_minor_collision,True,"halka sa accident hua hy gari ny touch kiya, ma thik hn lekin bike ka shesha toot gya"
+nandos_jbr_ur_039,restaurant_needs_20_more_min,False,nandos waly keh rhy 20 minute aur lgein gy
+nandos_jbr_ur_040,cant_find_restaurant,False,"location galat dikha rha hy app, JBR ma kahan hy ye nandos?"

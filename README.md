@@ -34,6 +34,16 @@ For the evaluation criteria, we set up an exhaustive set of criteria that measur
 
 For this use case, I adopted similar guidelines and ran sample calls. These live calls are included as short recordings that will be part of the artefact in `eval_dataset/`.
 
+## Next Steps
+
+Some obvious solutions are fine-tuning, and more specifically, efficient techniques like LoRA, which are more feasible. Another approach is to curate a selection of data—in this case, driver audio in the target language—with representative samples that include a variety of scenarios, such as language switching and background noise.
+
+In terms of architecture, I would like to study a comparative approach: placing language classifiers on top of the encoder output and comparing that with a generic, language-agnostic model.
+
+What makes this particularly challenging is that a lot of it is very hard to evaluate, even for native speakers. For example, Urdu and Hindi have different roots (Sanskrit and Arabic/Farsi) but still share a lot of the underlying vocabulary. To add to the confusion, many words have to be romanised as English literals. For example, “pickup” and “drop-off” are said as-is, even though counterparts exist; using those counterparts does not make sense in this context.
+
+Adding exceptions would essentially create a bootstrapped, “reward-hacked” solution that works for our use case. We need a trained language model that can switch fluently and is representative of the population. For example, even if the detected language is Urdu, a driver's mother tongue might be something else, so we may see spillover and errors there as well. These issues are also interlinked: a transcription error can lead to model errors. Sometimes, a better-localised model may not have the low latency of frontier models.
+
 
 ## Setup
 

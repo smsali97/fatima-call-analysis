@@ -5,5 +5,6 @@ peft
 librosa
 torch
 accelerate
-gTTS
+openai
+pandas
 ipykernel
